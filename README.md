@@ -39,7 +39,9 @@ A plugin for Typecho blogs that integrates with AppriseAPI to deliver real-time 
 
 ## 安全考虑
 
-使用通知 URL 包含敏感凭据（如 API Key），建议本地部署 Apprise API，限制外部访问。如需外部访问，建议设置 Nginx 反向代理、启用 HTTPS 并设置访问控制并定期检查服务器日志。
+使用通知 URL 包含敏感凭据（如 API Key），建议本地部署 Apprise API，限制外部访问。
+
+如需外部访问，建议设置 Nginx 反向代理、启用 HTTPS 并设置访问控制并定期检查服务器日志。
 
 ## 许可证
 
